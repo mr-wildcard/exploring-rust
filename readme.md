@@ -41,4 +41,5 @@ println!("Total: {} + {} = {}", price, tax, total);
 - you cannot add an integer to a float (execept if you can the integer)
 ---
 
-In Rust, all elements in an Array must be of the same type.
+- In Rust, all elements in an Array must be of the same type.
+- you can mix types in a Tuple and mutate its values (with `mut`keyword), but you cannot change its types order once declared.
