@@ -38,8 +38,8 @@ println!("Total: {} + {} = {}", price, tax, total);
 ---
 
 - **Signed** and **unsigned** refer to whether it’s possible for the number to be negative
-- you cannot add an integer to a float (execept if you can the integer)
+- you cannot add an integer to a float (except if you cast the integer)
 ---
 
 - In Rust, all elements in an Array must be of the same type.
-- you can mix types in a Tuple and mutate its values (with `mut`keyword), but you cannot change its types order once declared.
+- you can mix types in a Tuple and mutate its values (with `mut` keyword), but you cannot change its types order once declared.
